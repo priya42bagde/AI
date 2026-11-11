@@ -1,0 +1,314 @@
+# Basic to Advanced: AI Interview Questions & Answers 🤖
+
+AI is becoming an important part of software development.
+
+Whether you are a Frontend Developer, Backend Developer, Full Stack Developer or Tech Lead, understanding AI concepts is becoming increasingly useful.
+
+I started putting together some basic AI interview questions that I believe every developer should know.
+
+The goal is not to memorize definitions. It's to understand what these terms actually mean and explain them confidently in an interview.
+
+Let's imagine an interview between an interviewer and Priya.
+
+## 🟢 Level 1: AI Fundamentals (Beginner)
+
+**Q1. What is Artificial Intelligence (AI)?**
+
+**Priya:** AI is a technology that helps machines perform tasks that normally require human intelligence, like understanding language, recognizing images and making decisions.
+
+Example: Google Maps suggesting the fastest route is one example of AI in action.
+
+**Q2. What is Machine Learning (ML)?**
+
+**Priya:** Machine Learning is a part of AI where machines learn from data instead of following only predefined instructions.
+
+Example: If we show a computer thousands of spam and non-spam emails, it gradually learns to identify spam emails.
+
+**Q3. What is Deep Learning (DL)?**
+
+**Priya:** Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers to learn complex patterns.
+
+Example: Just like a human brain processes information through connected neurons, deep learning uses artificial neural networks.
+
+**Q4. What is the difference between AI, ML and Deep Learning?**
+
+**Priya:** Think of three nested boxes.
+
+- AI is the biggest box.
+- ML is inside AI.
+- Deep Learning is inside ML.
+
+AI is the broader concept, ML learns from data, and Deep Learning learns complex patterns using multiple neural network layers.
+
+**Q5. What is Generative AI?**
+
+**Priya:** Generative AI is a type of AI that can create new content such as text, images, audio, videos and code.
+
+Example: ChatGPT can generate an email, explain React code or write a JavaScript function.
+
+**Q6. What is the difference between traditional AI and Generative AI?**
+
+**Priya:** Traditional AI generally predicts, classifies or identifies things. Generative AI creates new content.
+
+Example:
+- Traditional AI: Is this email spam?
+- Generative AI: Write a professional email for me.
+
+**Q7. What is an LLM?**
+
+**Priya:** LLM stands for Large Language Model. It is an AI model trained on large amounts of text to understand and generate human-like language.
+
+Example: ChatGPT, Gemini and Claude.
+
+Think of an LLM as someone who has studied a huge library of books and learned language patterns.
+
+**Q8. What is NLP?**
+
+**Priya:** NLP stands for Natural Language Processing. It helps computers understand, interpret and work with human language.
+
+Example: When we ask Siri a question or translate a sentence using Google Translate, NLP techniques are involved.
+
+## 🟡 Level 2: Understanding How AI Works
+
+**Q9. What is a Neural Network?**
+
+**Priya:** A neural network is a computing model inspired by the human brain. It contains connected units called neurons that process information and learn patterns.
+
+Example: Like our brain recognizes a cat after seeing many cats, a neural network can learn to recognize cat images.
+
+**Q10. What is a Training Dataset?**
+
+**Priya:** A training dataset is the collection of examples used to teach an AI model.
+
+Example: If we want to build a model to identify dogs, we provide thousands of dog images during training.
+
+**Q11. What is Model Training?**
+
+**Priya:** Model training is the process of teaching an AI model using data so it can identify patterns and make predictions.
+
+Example: Teaching a student using multiple practice questions before an examination.
+
+**Q12. What is Inference in AI?**
+
+**Priya:** Inference means using an already-trained model to generate a prediction or answer.
+
+Example: Training is teaching a student. Inference is when the student answers a new question.
+
+**Q13. What is Supervised Learning?**
+
+**Priya:** In supervised learning, a model learns from data that already has correct answers or labels.
+
+Example: Teaching a child with flashcards where each animal picture has its name written below it.
+
+**Q14. What is Unsupervised Learning?**
+
+**Priya:** In unsupervised learning, the model finds patterns or groups in data without predefined labels.
+
+Example: Grouping customers based on their shopping behaviour without telling the system which customer belongs to which group.
+
+**Q15. What is Reinforcement Learning?**
+
+**Priya:** It is a learning method where a model learns through actions, rewards and penalties.
+
+Example: Training a dog. When it performs the correct action, we reward it. Over time, it learns the desired behaviour.
+
+**Q16. What is Overfitting?**
+
+**Priya:** Overfitting happens when a model learns the training data too closely and performs poorly on new data.
+
+Example: A student memorizes answers to 100 questions but cannot solve a slightly different question in the examination.
+
+## 🟠 Level 3: Generative AI Concepts
+
+**Q17. What is a Prompt?**
+
+**Priya:** A prompt is the instruction or question we provide to an AI model to get a response.
+
+Example: "Explain React Hooks with a simple JavaScript example."
+
+**Q18. What is Prompt Engineering?**
+
+**Priya:** Prompt Engineering means writing clear and structured instructions to get better results from an AI model.
+
+Example: Instead of saying "Explain React", I would say "Explain React Hooks for a beginner with practical examples and interview questions."
+
+**Q19. What are Tokens in AI?**
+
+**Priya:** Tokens are small units of text that an AI model processes. A token can be a word, part of a word or punctuation.
+
+Example: A sentence containing 10 words may contain more or fewer than 10 tokens.
+
+**Q20. What is a Context Window?**
+
+**Priya:** A context window is the amount of information a model can consider while processing a request.
+
+Example: Think of it as the working memory of a person during a conversation. A larger working memory allows the person to consider more information at once.
+
+**Q21. What is Temperature in LLMs?**
+
+**Priya:** Temperature controls how predictable or varied the model's responses are.
+
+Example:
+- Low temperature: More predictable and consistent answers.
+- High temperature: More creative and varied answers.
+
+**Q22. What is Hallucination in AI?**
+
+**Priya:** Hallucination happens when an AI model generates incorrect or misleading information but presents it confidently.
+
+Example: Imagine someone confidently giving you a wrong answer during an interview.
+
+That's why AI-generated information should be verified.
+
+**Q23. What are Embeddings?**
+
+**Priya:** Embeddings convert text, images or other information into numerical representations called vectors. These vectors help computers understand semantic similarity.
+
+Example: The words "car" and "vehicle" have similar meanings, so their embeddings may be close to each other.
+
+**Q24. What is a Vector Database?**
+
+**Priya:** A vector database stores and searches numerical vector representations of information.
+
+Example: Imagine a library where books are organized by meaning rather than only by their titles. You can find similar information even when the exact words are different.
+
+## 🔵 Level 4: Advanced AI Concepts
+
+**Q25. What is RAG (Retrieval-Augmented Generation)?**
+
+**Priya:** RAG is a technique where an AI model retrieves relevant information from an external knowledge source before generating an answer.
+
+Example: Imagine asking a student a question and allowing them to refer to company documentation before answering.
+
+This helps the AI provide answers based on specific information rather than relying only on its training knowledge.
+
+**Q26. What is Fine-Tuning?**
+
+**Priya:** Fine-tuning means taking an already-trained model and training it further on a specific dataset to improve its performance for a particular task.
+
+Example: A general doctor receiving additional training to specialize in cardiology.
+
+**Q27. What is the difference between RAG and Fine-Tuning?**
+
+**Priya:** RAG gives the model access to external knowledge while answering. Fine-tuning adjusts the model's behaviour or learned patterns through additional training.
+
+Example:
+- RAG: Giving a student a reference book during an examination.
+- Fine-tuning: Giving the student additional specialized training.
+
+**Q28. What is an AI Agent?**
+
+**Priya:** An AI Agent is a system that can understand a goal, plan steps, use available tools and perform actions to complete a task.
+
+Example: Instead of simply telling me how to book a flight, an AI agent could search flights, compare options and help complete the booking with proper authorization.
+
+**Q29. What is the difference between an LLM and an AI Agent?**
+
+**Priya:** An LLM primarily understands and generates responses. An AI Agent can use an LLM along with tools, memory and decision-making workflows to perform tasks.
+
+Example:
+- LLM: Tells you how to send an email.
+- AI Agent: Can draft and send an email using an authorized email tool.
+
+**Q30. What is an AI Workflow?**
+
+**Priya:** An AI workflow is a sequence of steps where AI models and other tools work together to complete a task.
+
+Example: Read a document → Extract information → Summarize it → Generate a report.
+
+**Q31. What is Function Calling or Tool Calling?**
+
+**Priya:** It allows an AI model to request the execution of an external function or tool to complete a task.
+
+Example: If I ask for today's weather, the AI can request a weather API instead of guessing the temperature.
+
+**Q32. What is MCP (Model Context Protocol)?**
+
+**Priya:** MCP is an open protocol that helps AI applications connect with external tools, services and data sources through a standardized approach.
+
+Example: Think of MCP as a common connector that allows different AI applications to communicate with different tools.
+
+**Q33. What is Multimodal AI?**
+
+**Priya:** Multimodal AI can understand or work with multiple types of information, such as text, images, audio and video.
+
+Example: Uploading a screenshot and asking AI to explain the error visible in it.
+
+**Q34. What is Responsible AI?**
+
+**Priya:** Responsible AI means developing and using AI systems in a safe, fair, transparent and ethical way.
+
+Example: An AI hiring system should not unfairly reject candidates based on gender, age or other unrelated characteristics.
+
+**Q35. What is an AI Guardrail?**
+
+**Priya:** AI Guardrails are rules and safety mechanisms that help control AI behaviour and reduce unwanted or unsafe outputs.
+
+Example: A banking chatbot should not expose another customer's personal information.
+
+## 🟣 Level 5: AI Concepts Every Developer Should Know
+
+**Q36. What is an API in AI?**
+
+**Priya:** An AI API allows our application to communicate with an AI model or service and receive its response.
+
+Example: A React application sends a user's question to a backend API, which communicates with an LLM and returns the answer.
+
+**Q37. What is an AI Model?**
+
+**Priya:** An AI model is the trained mathematical system that learns patterns from data and uses them to generate predictions or outputs.
+
+Example: Think of it as the engine that powers an AI application.
+
+**Q38. What is an Open-Source AI Model?**
+
+**Priya:** It is a model whose code, weights or other components are made available under a particular license, allowing developers to inspect, use or modify it according to the license terms.
+
+Example: Developers can explore models such as Llama and Mistral.
+
+**Q39. What is Model Quantization?**
+
+**Priya:** Quantization reduces the numerical precision used to represent model parameters, which can reduce memory usage and improve inference efficiency.
+
+Example: Like compressing a large image so it takes less storage space while retaining acceptable quality.
+
+**Q40. What is AI Evaluation?**
+
+**Priya:** AI Evaluation means measuring how well an AI model performs based on accuracy, relevance, reliability and other quality metrics.
+
+Example: Just like we test our React application before releasing it, we should test AI responses before using them in production.
+
+**Q41. What is an AI Pipeline?**
+
+**Priya:** An AI pipeline is a sequence of processes that prepares data, runs models and produces the required output.
+
+Example: Data collection → Data cleaning → Model processing → Prediction → Result.
+
+**Q42. What is the difference between AI, Generative AI and Agentic AI?**
+
+**Priya:** AI is the broader field of making machines perform intelligent tasks.
+
+Generative AI creates new content.
+
+Agentic AI focuses on systems that can plan, make decisions and take actions to achieve a goal.
+
+Example:
+- AI: Identifies spam emails.
+- Generative AI: Writes an email.
+- Agentic AI: Reads an email, identifies the required action and prepares a response.
+
+---
+
+**My learning takeaway:**
+
+I believe developers don't need to become AI researchers to start working with AI.
+
+But we should understand the fundamentals, know how LLMs work, understand RAG, embeddings, AI agents and learn how to integrate AI into real-world applications.
+
+Technology keeps changing. The best thing we can do is keep learning.
+
+**Question for developers:** Which AI concept do you think every software engineer should understand first?
+
+I am building my AI knowledge step by step. Sharing these notes so other developers can learn along the way.
+
+#ArtificialIntelligence #GenerativeAI #MachineLearning #LLM #AIForDevelopers #TechInterview #SoftwareDevelopment
