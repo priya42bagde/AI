@@ -1,1 +1,299 @@
 # AI
+
+# AI Interview Questions and Answers – Basic to Advanced
+
+A beginner-friendly guide to understanding Artificial Intelligence, Machine Learning, Generative AI, LLMs, RAG, AI Agents, and AI concepts commonly asked in technical interviews.
+
+The answers are written in simple conversational English, with practical analogies to make concepts easier to understand.
+
+---
+
+# Level 1: AI Fundamentals
+
+### <strong>Q1. What is Artificial Intelligence (AI)?</strong>
+
+<strong>Priya:</strong> Artificial Intelligence is a technology that enables machines to perform tasks that normally require human intelligence, such as learning, problem-solving, understanding language, and making decisions.
+
+<strong>Analogy:</strong> Think of AI as teaching a computer to perform tasks that usually require a human brain.
+
+### <strong>Q2. What is Machine Learning (ML)?</strong>
+
+<strong>Priya:</strong> Machine Learning is a subset of AI where computers learn patterns from data and use those patterns to make predictions or decisions without being explicitly programmed for every situation.
+
+<strong>Analogy:</strong> Imagine showing a child hundreds of pictures of cats and dogs. Eventually, the child learns to identify them. Machine Learning works in a similar way.
+
+### <strong>Q3. What is Deep Learning (DL)?</strong>
+
+<strong>Priya:</strong> Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers to learn complex patterns from large amounts of data.
+
+<strong>Analogy:</strong> Think of it as a student learning a subject through multiple levels, starting with basic concepts and gradually understanding complex topics.
+
+### <strong>Q4. What is the difference between AI, ML, and Deep Learning?</strong>
+
+<strong>Priya:</strong> AI is the broader concept of making machines intelligent. Machine Learning is one way to achieve AI by learning from data. Deep Learning is a specialized type of Machine Learning that uses multi-layer neural networks.
+
+<strong>Analogy:</strong> Think of three nested boxes. AI is the biggest box, ML is inside AI, and Deep Learning is inside ML.
+
+### <strong>Q5. What is Generative AI?</strong>
+
+<strong>Priya:</strong> Generative AI is a type of AI that can create new content such as text, images, audio, videos, and code based on user instructions.
+
+<strong>Analogy:</strong> Traditional AI may identify a picture of a cat, while Generative AI can create a completely new picture of a cat.
+
+### <strong>Q6. What is the difference between Traditional AI and Generative AI?</strong>
+
+<strong>Priya:</strong> Traditional AI mainly analyzes existing data to classify, predict, or make decisions. Generative AI can use learned patterns to generate new content.
+
+<strong>Analogy:</strong> Traditional AI is like a teacher checking your answers. Generative AI is like a teacher helping you write a new answer.
+
+### <strong>Q7. What is an LLM (Large Language Model)?</strong>
+
+<strong>Priya:</strong> An LLM is an AI model trained on a very large amount of text data to understand and generate human-like language. Examples include GPT, Gemini, and Claude.
+
+<strong>Analogy:</strong> Think of an LLM as a student who has studied a huge library of books and learned language patterns from them.
+
+### <strong>Q8. What is NLP (Natural Language Processing)?</strong>
+
+<strong>Priya:</strong> NLP is a field of AI that helps computers understand, process, and generate human language.
+
+<strong>Analogy:</strong> When you ask a voice assistant a question and it understands your words, NLP helps make that possible.
+
+---
+
+# Level 2: How AI Works
+
+### <strong>Q9. What is a Neural Network?</strong>
+
+<strong>Priya:</strong> A neural network is a computing model inspired by the human brain. It contains connected units called neurons that process information and learn patterns from data.
+
+<strong>Analogy:</strong> Think of a team where each member handles a small part of a task, and together they produce the final result.
+
+### <strong>Q10. What is a Training Dataset?</strong>
+
+<strong>Priya:</strong> A training dataset is the collection of examples used to teach an AI model how to recognize patterns and make predictions.
+
+<strong>Analogy:</strong> A student uses textbooks and practice questions to prepare for an exam. Those materials are similar to training data.
+
+### <strong>Q11. What is Model Training?</strong>
+
+<strong>Priya:</strong> Model training is the process where an AI model learns from data by adjusting its internal parameters to reduce errors and improve its predictions.
+
+<strong>Analogy:</strong> Imagine solving a maths problem repeatedly. Every time you make a mistake, you learn and improve your next attempt.
+
+### <strong>Q12. What is Inference in AI?</strong>
+
+<strong>Priya:</strong> Inference is the process of using a trained AI model to generate a prediction or response for new input data.
+
+<strong>Analogy:</strong> Training is studying for an exam. Inference is using that knowledge to answer questions during the exam.
+
+### <strong>Q13. What is Supervised Learning?</strong>
+
+<strong>Priya:</strong> Supervised Learning is a type of Machine Learning where a model learns using labelled data, meaning the correct answers are already provided during training.
+
+<strong>Analogy:</strong> A teacher gives students questions along with their correct answers so they can learn from examples.
+
+### <strong>Q14. What is Unsupervised Learning?</strong>
+
+<strong>Priya:</strong> Unsupervised Learning is a type of Machine Learning where a model finds patterns or groups in data without predefined labels.
+
+<strong>Analogy:</strong> Imagine arranging different fruits into groups based on their similarities without anyone telling you which group each fruit belongs to.
+
+### <strong>Q15. What is Reinforcement Learning?</strong>
+
+<strong>Priya:</strong> Reinforcement Learning is a learning approach where an agent learns by interacting with an environment and receiving rewards or penalties based on its actions.
+
+<strong>Analogy:</strong> Think of training a dog. When it performs the correct action, it receives a reward. Over time, it learns the desired behaviour.
+
+### <strong>Q16. What is Overfitting in Machine Learning?</strong>
+
+<strong>Priya:</strong> Overfitting happens when a model learns the training data too closely, including noise and unnecessary details. As a result, it performs well on training data but poorly on new data.
+
+<strong>Analogy:</strong> A student memorizes answers to practice questions but cannot solve a slightly different question in the actual exam.
+
+---
+
+# Level 3: Generative AI Concepts
+
+### <strong>Q17. What is a Prompt in Generative AI?</strong>
+
+<strong>Priya:</strong> A prompt is the instruction or input we provide to an AI model to get a response.
+
+<strong>Analogy:</strong> A prompt is like asking a question to a person. The clearer your question, the better the answer can be.
+
+### <strong>Q18. What is Prompt Engineering?</strong>
+
+<strong>Priya:</strong> Prompt Engineering is the process of designing clear and effective instructions to get more useful and relevant responses from an AI model.
+
+<strong>Analogy:</strong> Instead of saying, "Tell me about React," you say, "Explain React Hooks with simple examples for a beginner." The second instruction gives better direction.
+
+### <strong>Q19. What are Tokens in LLMs?</strong>
+
+<strong>Priya:</strong> Tokens are small units of text that an LLM processes. A token can be a complete word, part of a word, punctuation, or another text unit.
+
+<strong>Analogy:</strong> Think of tokens as small building blocks used by an AI model to understand and generate sentences.
+
+### <strong>Q20. What is a Context Window?</strong>
+
+<strong>Priya:</strong> A context window is the maximum amount of information, measured in tokens, that a model can consider at one time while generating a response.
+
+<strong>Analogy:</strong> Imagine a person with a limited working memory. They can remember only a certain amount of information while having a conversation.
+
+### <strong>Q21. What is Temperature in LLMs?</strong>
+
+<strong>Priya:</strong> Temperature is a setting that controls how varied or predictable the model's responses can be. Lower values generally produce more predictable responses, while higher values allow more variation.
+
+<strong>Analogy:</strong> Low temperature is like giving a textbook answer. High temperature is like encouraging creative brainstorming.
+
+### <strong>Q22. What is Hallucination in Generative AI?</strong>
+
+<strong>Priya:</strong> Hallucination happens when an AI model generates information that sounds correct but is actually false, unsupported, or made up.
+
+<strong>Analogy:</strong> Imagine a student confidently answering a question even though they do not know the correct answer.
+
+### <strong>Q23. What are Embeddings in AI?</strong>
+
+<strong>Priya:</strong> Embeddings are numerical representations of data, such as text or images, that capture their meaning and relationships in a mathematical space.
+
+<strong>Analogy:</strong> Imagine giving every sentence a location on a map. Sentences with similar meanings are placed closer to each other.
+
+### <strong>Q24. What is a Vector Database?</strong>
+
+<strong>Priya:</strong> A vector database stores and searches numerical representations called embeddings. It helps find information that is semantically similar to a query.
+
+<strong>Analogy:</strong> A normal database can search for an exact word, while a vector database can help find content with a similar meaning.
+
+---
+
+# Level 4: Advanced AI Concepts
+
+### <strong>Q25. What is RAG (Retrieval-Augmented Generation)?</strong>
+
+<strong>Priya:</strong> RAG is a technique that retrieves relevant information from an external knowledge source and provides it to an LLM as context before generating an answer.
+
+<strong>Analogy:</strong> Imagine an open-book exam. Instead of answering only from memory, you can refer to relevant documents before writing your answer.
+
+### <strong>Q26. What is Fine-Tuning in AI?</strong>
+
+<strong>Priya:</strong> Fine-tuning is the process of taking an already trained model and training it further on a specific dataset to adapt its behaviour to a particular task or domain.
+
+<strong>Analogy:</strong> A student already knows general subjects. Fine-tuning is like giving that student specialized training in banking or healthcare.
+
+### <strong>Q27. What is the Difference Between RAG and Fine-Tuning?</strong>
+
+<strong>Priya:</strong> RAG provides external information to the model at response time. Fine-tuning changes the model's learned parameters through additional training.
+
+<strong>Analogy:</strong> RAG is like referring to updated notes during an exam. Fine-tuning is like attending a specialized training course before the exam.
+
+### <strong>Q28. What is an AI Agent?</strong>
+
+<strong>Priya:</strong> An AI Agent is a system that uses an AI model to understand a goal, decide what actions to take, and interact with tools or external systems to complete a task. It may operate in multiple steps.
+
+<strong>Analogy:</strong> Think of a personal assistant who understands your request, checks your calendar, searches for information, and prepares a result.
+
+### <strong>Q29. What is the Difference Between an LLM and an AI Agent?</strong>
+
+<strong>Priya:</strong> An LLM mainly understands and generates language. An AI Agent uses an LLM or another model as part of a larger system that can plan, use tools, and perform actions.
+
+<strong>Analogy:</strong> An LLM is like a knowledgeable advisor. An AI Agent is like an assistant who can also take action based on that advice.
+
+### <strong>Q30. What is an AI Workflow?</strong>
+
+<strong>Priya:</strong> An AI Workflow is a sequence of connected steps that process input, use AI models or tools, and produce a final result.
+
+<strong>Analogy:</strong> Think of an office process where one person collects information, another checks it, and another prepares the final report.
+
+### <strong>Q31. What is Function Calling or Tool Calling in AI?</strong>
+
+<strong>Priya:</strong> Tool Calling allows an AI model to request that an application execute a specific function or external tool. The application performs the action and can send the result back to the model.
+
+<strong>Analogy:</strong> Imagine asking an assistant to check the weather. The assistant requests a weather service, receives the result, and explains it to you.
+
+### <strong>Q32. What is MCP (Model Context Protocol)?</strong>
+
+<strong>Priya:</strong> MCP is an open protocol that standardizes how AI applications connect to external tools, data sources, and services.
+
+<strong>Analogy:</strong> Think of MCP as a common adapter that helps different AI applications communicate with different tools using a standard approach.
+
+### <strong>Q33. What is Multimodal AI?</strong>
+
+<strong>Priya:</strong> Multimodal AI is an AI system that can process or generate more than one type of information, such as text, images, audio, and video.
+
+<strong>Analogy:</strong> Humans understand the world using their eyes and ears. Multimodal AI can work with multiple types of input too.
+
+### <strong>Q34. What is Responsible AI?</strong>
+
+<strong>Priya:</strong> Responsible AI means developing and using AI systems in a safe, fair, transparent, privacy-conscious, and accountable way.
+
+<strong>Analogy:</strong> Just as we expect people to use technology responsibly, AI systems should also follow ethical and safety principles.
+
+### <strong>Q35. What are Guardrails in AI?</strong>
+
+<strong>Priya:</strong> Guardrails are rules and safety mechanisms that help control AI behaviour, validate inputs and outputs, and reduce harmful or unwanted responses.
+
+<strong>Analogy:</strong> Think of road safety barriers. They help keep vehicles within safe boundaries.
+
+---
+
+# Level 5: AI Concepts for Developers
+
+### <strong>Q36. What is an AI API?</strong>
+
+<strong>Priya:</strong> An AI API allows developers to integrate AI capabilities into their applications by sending requests to an AI service and receiving responses.
+
+<strong>Analogy:</strong> Think of an API as a waiter in a restaurant. You place an order, the waiter communicates with the kitchen, and brings back your food.
+
+### <strong>Q37. What is an AI Model?</strong>
+
+<strong>Priya:</strong> An AI model is a trained computational system that has learned patterns from data and can perform tasks such as prediction, classification, or content generation.
+
+<strong>Analogy:</strong> Think of an AI model as a trained employee who has learned how to perform a particular job.
+
+### <strong>Q38. What is an Open-Source AI Model?</strong>
+
+<strong>Priya:</strong> An open-source AI model is a model whose code, weights, or other components are made available under specific licence terms. The level of access and permitted usage depends on its licence.
+
+<strong>Analogy:</strong> It is like getting access to a recipe so you can study or adapt it, depending on the rules attached to it.
+
+### <strong>Q39. What is Quantization in AI?</strong>
+
+<strong>Priya:</strong> Quantization is a technique that reduces the numerical precision used to represent a model's parameters. It can reduce model size and memory usage and sometimes improve inference speed.
+
+<strong>Analogy:</strong> Imagine storing measurements with fewer decimal places. The information takes less space, although a small amount of precision may be lost.
+
+### <strong>Q40. What is AI Model Evaluation?</strong>
+
+<strong>Priya:</strong> Model Evaluation is the process of measuring how well an AI model performs using suitable metrics, test datasets, and quality checks.
+
+<strong>Analogy:</strong> Just as students take tests to measure their knowledge, AI models are evaluated to measure their performance.
+
+### <strong>Q41. What is an AI Pipeline?</strong>
+
+<strong>Priya:</strong> An AI Pipeline is a sequence of steps involved in preparing data, processing input, running a model, evaluating results, and delivering output.
+
+<strong>Analogy:</strong> Think of a manufacturing assembly line where each stage performs a specific task before the final product is ready.
+
+### <strong>Q42. What is the Difference Between AI, Generative AI, and Agentic AI?</strong>
+
+<strong>Priya:</strong>
+
+- AI is the broader field of making machines perform intelligent tasks.
+- Generative AI focuses on creating new content such as text, images, audio, and code.
+- Agentic AI focuses on systems that can pursue goals through planning, tool usage, and multi-step actions.
+
+<strong>Analogy:</strong> AI is the overall concept, Generative AI is like a creator who produces content, and Agentic AI is like an assistant who can plan and complete tasks.
+
+---
+
+# Final Interview Tip
+
+Do not try to memorize every answer word by word.
+
+Focus on understanding:
+
+1. What the concept means.
+2. Why it is used.
+3. Where it is used in real-world applications.
+4. How it is different from related concepts.
+5. One practical example.
+
+<strong>Remember:</strong> A good interview answer is not about using complicated words. It is about explaining a concept clearly and confidently.
